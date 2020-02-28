@@ -1,0 +1,21 @@
+{
+    "name": "EcsRx.Unity",
+    "references": [
+        "EcsRx",
+        "EcsRx.Infrastructure",
+        "EcsRx.Plugins.Batching",
+        "EcsRx.Plugins.Computeds",
+        "EcsRx.Plugins.ReactiveSystems",
+        "EcsRx.Plugins.Views",
+        "UniRx",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

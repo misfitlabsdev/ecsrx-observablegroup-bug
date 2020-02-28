@@ -1,0 +1,15 @@
+{
+    "name": "EcsRx.Infrastructure",
+    "references": [
+        "GUID:509090ce2297a354085b1a82c0e5bad7",
+        "GUID:cef204307a87a6b42954c554f1476088"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

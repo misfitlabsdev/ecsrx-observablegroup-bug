@@ -1,0 +1,19 @@
+{
+    "name": "EcsRx.Unity.Editor",
+    "references": [
+        "EcsRx",
+        "EcsRx.Unity",
+        "EcsRx.Plugins.Views",
+        "UniRx"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
