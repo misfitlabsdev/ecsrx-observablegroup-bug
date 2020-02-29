@@ -1,0 +1,23 @@
+﻿{
+	"name": "MisfitLabs.Examples",
+	"references": [
+		"CoreFxLab",
+		"EcsRx",
+		"EcsRx.Infrastructure",
+		"EcsRx.MicroRx",
+		"EcsRx.Plugins.Computeds",
+		"EcsRx.Plugins.ReactiveSystems",
+		"EcsRx.Plugins.Views",
+		"EcsRx.Unity",
+		"UniRx",
+		"Zenject"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": []
+}
