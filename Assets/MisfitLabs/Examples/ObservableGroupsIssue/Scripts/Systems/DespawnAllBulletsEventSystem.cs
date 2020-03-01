@@ -28,8 +28,9 @@ namespace MisfitLabs.Examples.ObservableGroupsIssue.Systems
 
         public override void EventTriggered(DespawnAllBulletsEvent eventData)
         {
-            // DespawnUsingObservableGroup();
-            DespawnUsingGetEntitiesFor();
+            //DespawnUsingObservableGroup();
+            DespawnUsingObservableGroupToArray();
+            // DespawnUsingGetEntitiesFor();
         }
 
         private void DespawnUsingGetEntitiesFor()
@@ -46,6 +47,15 @@ namespace MisfitLabs.Examples.ObservableGroupsIssue.Systems
             for (var i = 0; i < _observableGroup.Count; i++)
             {
                 _entityCollectionManager.RemoveEntity(_observableGroup[i]);
+            }
+        }
+
+        private void DespawnUsingObservableGroupToArray()
+        {
+            var entities = _observableGroup.ToArray();
+            for (var i = 0; i < entities.Length; i++)
+            {
+                _entityCollectionManager.RemoveEntity(entities[i]);
             }
         }
     }
